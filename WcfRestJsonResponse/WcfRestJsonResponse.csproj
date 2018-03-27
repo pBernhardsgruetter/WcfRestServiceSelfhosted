@@ -53,13 +53,13 @@
     <Compile Include="Dtos\JsonErrorDetails.cs" />
     <Compile Include="Dtos\RequestDto.cs" />
     <Compile Include="Dtos\ResponseDto.cs" />
-    <Compile Include="ExtendedWebHttpBehavior.cs" />
-    <Compile Include="ExtendedWebHttpElement.cs" />
-    <Compile Include="IService.cs" />
-    <Compile Include="JsonErrorHandler.cs" />
+    <Compile Include="CustomErrorHandling\ExtendedWebHttpBehavior.cs" />
+    <Compile Include="CustomErrorHandling\ExtendedWebHttpElement.cs" />
+    <Compile Include="RestServices\IService.cs" />
+    <Compile Include="CustomErrorHandling\JsonErrorHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service.cs" />
+    <Compile Include="RestServices\Service.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

@@ -2,7 +2,7 @@
 using System.ServiceModel.Web;
 using WcfRestJsonResponse.Dtos;
 
-namespace WcfRestJsonResponse
+namespace WcfRestJsonResponse.RestServices
 {
     [ServiceContract]
     public interface IService

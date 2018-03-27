@@ -3,7 +3,7 @@ using System.Configuration;
 using System.ServiceModel.Configuration;
 using System.ServiceModel.Web;
 
-namespace WcfRestJsonResponse
+namespace WcfRestJsonResponse.CustomErrorHandling
 {
     /// <summary>
     ///     Enables the ExtendedWebHttpBehavior for an endpoint through configuration.

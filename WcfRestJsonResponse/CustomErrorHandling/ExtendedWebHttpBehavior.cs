@@ -1,7 +1,7 @@
 ﻿using System.ServiceModel.Description;
 using System.ServiceModel.Dispatcher;
 
-namespace WcfRestJsonResponse
+namespace WcfRestJsonResponse.CustomErrorHandling
 {
     /// <summary>
     ///     This class is a custom implementation of the WebHttpBehavior.

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ServiceModel.Web;
+using WcfRestJsonResponse.RestServices;
 
 namespace WcfRestJsonResponse
 {
@@ -7,11 +8,12 @@ namespace WcfRestJsonResponse
     {
         private static void Main(string[] args)
         {
-            var host = new WebServiceHost(typeof(Service), new Uri("http://localhost:8000"));
+            var uri = "http://localhost:8000";
+            var host = new WebServiceHost(typeof(Service), new Uri(uri));
 
             host.Open();
-            Console.WriteLine("Service is up and running");
-            Console.WriteLine("Press enter to quit ");
+            Console.WriteLine($"Service is up and running on {uri}");
+            Console.WriteLine("Press enter to quit...");
             Console.ReadLine();
             host.Close();
         }

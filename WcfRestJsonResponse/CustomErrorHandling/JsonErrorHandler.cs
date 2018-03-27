@@ -7,7 +7,7 @@ using System.ServiceModel.Dispatcher;
 using System.Text.RegularExpressions;
 using WcfRestJsonResponse.Dtos;
 
-namespace WcfRestJsonResponse
+namespace WcfRestJsonResponse.CustomErrorHandling
 {
     public class JsonErrorHandler : IErrorHandler
     {

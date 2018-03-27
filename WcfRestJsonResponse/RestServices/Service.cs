@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Net;
-using System.ServiceModel.Web;
 using WcfRestJsonResponse.Dtos;
 
-namespace WcfRestJsonResponse
+namespace WcfRestJsonResponse.RestServices
 {
     public class Service : IService
     {
